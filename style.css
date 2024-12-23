@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    
+}
+body {
+    background-color: #1c1c22;
+}
+.color {
+    background-color: #1c1c22;
+}
+.navbar {
+  
+    background-color: #1c1c22 !important;
+    /* position: fixed; */
+   
+}
+.container {
+    max-width:1250px;
+    min-height: 90vh;
+}
+
+.nav-item a:hover {
+   /* transition-duration: .2s; */
+   color: #33FFFF !important;
+  
+   border-bottom: 3px solid #33FFFF !important;
+   text-decoration: none;
+  
+   
+   
+
+
+}
+.ft {
+    font-family: "JetBrains Mono";
+    color: white;
+    font-size: 1rem ;
+   
+    
+   border-bottom: 3px solid #1c1c22;
+
+}
+.btn {
+    background: rgb(205,255,216);
+    background: linear-gradient(90deg, rgba(205,255,216,1) 34%, rgba(148,185,255,1) 76%);
+    /* background-color:#33FFFF !important ; */
+    font-family: "JetBrains Mono";
+   
+    font-size: 1rem ;
+    height: 40px;
+ 
+    
+    color: black;
+    border-radius: 1.5rem;
+    max-width: 130px;
+
+}
+.color {
+    /* color: ##0fbcf9 !important; */
+    color: #00ff99 !important;
+    /* color: #0099FF !important; */
+    /* color: #FF33AA!important; */
+    /* color: #FF9900!important; */
+    /* color: #FF6600 !important; */
+    /* color: #00ffEA  !important;  */
+    /* color: #66CCFF  !important; */
+    
+
+}
+.rk {
+   border-radius: 50%;
+   max-width: 500px;
+   max-height: 500px;
+   min-width: 300px;
+}
+#txtrk {
+    color: #33FFFF !important;
+    /* color: #00ff99 !important; */
+       /* color: #0099FF !important; */
+    /* color: #FF33AA!important; */
+    /* color: #FF9900!important; */
+    /* color: #FF6600 !important; */
+    /* color: #00ffEA  !important;  */
+    /* color: #66CCFF  !important; */
+    /* color: #4ddde0 !important; */
+     /* color: #0fbcf9 !important; */
+
+    font-style: italic;
+    font-size: 4rem;
+
+}
+.txtwt {
+    color: white !important;
+    font-family: "JetBrains Mono";
+}
+#hellotxt {
+    color: white !important;
+    font-style: italic;
+    font-size: 4rem;
+    
+    
+}
+#sdtxt{
+    font-size: 1.2rem;
+    color: white !important;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+
+
+}
+.box {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-family: "JetBrains Mono";
+  
+    
+}
+
+
+.lead {
+    min-width: 280px;
+    max-width: 500px;
+    color: white;
+    font-family: "JetBrains Mono";
+}
+.heads{
+    font:bolder ;
+   
+
+}
+.box2{
+    min-width: 280px;
+    max-width: 500px;
+   
+    display: flex;
+} 
+.box2 button:hover {
+    background-color:#33FFFF ;
+    color: #1c1c22;
+}
+.btn2 {
+    max-width: 280px !important;
+ 
+    border: 3px solid #33FFFF ;
+    background-color: #1c1c22;
+    color: #33FFFF;
+    font-family: "JetBrains Mono";
+    padding: 15px;
+    border-radius: 1.5rem;
+    align-self: center;
+    margin-right: 30px;
+   
+    
+
+    
+
+}
+.social-icons{
+    text-align: center;
+    
+    
+}
+
+    .social-icons a{
+        display: inline-flex;
+        justify-content:center;
+        align-items: center;
+        width:50px ;
+        height: 50px;
+        background-color: transparent;
+        border: 0.2rem solid #33FFFF;
+        font-size: 1.5rem;
+        border-radius: 50%;
+        margin: 3rem 1.5rem 3rem 0;
+        transition: 0.3s ease;
+        color: #33FFFF;
+        
+        text-decoration: none;
+    }
+    .social-icons a:hover{
+        color: #33FFFF;
+       
+        transform: scale(1.3) translateY(-5px);
+        background-color: #1c1c22;
+        box-shadow: 0  0 25px #33FFFF;
+    }
+
+ 
+    
+
+
+@media(max-width:500px) {
+    #txtrk,#hellotxt {
+      
+        font-style: italic;
+        font-size: 2.5rem;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    p,span {
+        text-align: center;
+    }
+    .rk {
+       width: 300px;
+       margin-left: 10px;
+    }
+    #sdtxt {
+        margin:0px ;
+    }
+    .box{
+        flex-direction: column-reverse;
+        height: auto;
+        
+    }
+    .heads{
+        text-align: center;
+    }
+   .lead {
+    font-size: 1rem;
+    
+   }
+   .box2 {
+    justify-content: center;
+    flex-direction: column;
+   }
+   .gh img {
+    margin-bottom: 10px;
+    
+   }
+   .btn2 {
+    margin: 0px;
+   }
+   .rowt {
+    flex-direction: column;
+   }
+   .ft {
+  
+    
+   border-bottom: 0px solid #1c1c22;
+
+   
+}
+.nav-item a:hover {
+ 
+   
+    border-bottom: 0px solid #33FFFF !important;
+ }
+
+}
