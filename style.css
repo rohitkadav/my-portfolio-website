@@ -86,12 +86,12 @@ body {
     
 
 }
-.rk {
+/* .rk {
    border-radius: 50%;
    max-width: 500px;
    max-height: 500px;
    min-width: 300px;
-}
+} */
 #txtrk {
     color: #33FFFF !important;
     /* color: #00ff99 !important; */
@@ -207,8 +207,68 @@ body {
         background-color: #1c1c22;
         box-shadow: 0  0 25px #33FFFF;
     }
+/* ------------------------------- */
+.box11{
+    height: 500px;
+    width: 500px;
+    background-image: conic-gradient(from var(--angle), #33FFFF,
+    transparent,#33FFFF,transparent,#33FFFF);
+    animation: 9s animate linear infinite;
+    border-radius: 50%;
+    /* padding: 10px; */
+   
+  
+  
+
+}
+.box211{
+    content: '';
+    height: 496px;
+    width: 496px;
+    background-color:#1c1c22;
+    border-radius: 50%;
+    /* padding:5px; */
+    /* position: absolute; */
+    /* top: 10px;
+    left: 10px; */
+    translate: 2px 2px;
 
  
+
+
+
+}
+/* .box211::before{
+    filter: blur(1.5rem);
+    opacity: 0.3;
+} */
+.rk {
+    height: 440px;
+    width: 440px;
+    border-radius: 50%;
+    position: absolute;
+    top: 26px;
+    left: 26px;
+   
+}
+@keyframes animate {
+    from{
+        --angle:0deg;
+         
+    }
+    to {
+        --angle:360deg;
+    }
+    
+}
+@property --angle {
+    syntax: "<angle>";
+        initial-value: 0deg;
+        inherits: false;
+
+
+}
+
     
 
 
@@ -269,5 +329,26 @@ body {
    
     border-bottom: 0px solid #33FFFF !important;
  }
+
+ .box11{
+    height: 380px;
+    width: 380px;
+    margin-bottom: 20px;
+    align-self: center;
+
+ }
+ .box211{
+    height: 376px;
+    width: 376px;
+    translate: 2px 2px
+   
+ }
+ .rk {
+    height: 320px;
+    width: 320px;
+    translate: -7px ;
+ }
+
+
 
 }
