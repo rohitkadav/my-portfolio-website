@@ -1,14 +1,12 @@
 $(document).ready(function(){
-    var n = $(".nav-item").length;
-  
-    for(var i=0;i<n;i++) {
-        $(".nav-item")[i].addEventListener("click",function call(){
+
+        $(".nav-item").click(function (){
            alert( );
-           this.addClass(".clicked");
+           this.addClass("clicked");
            
         })
 
 
-    }
+  
 
 });
